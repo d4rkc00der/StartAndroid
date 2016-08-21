@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         tabHost.addTab(tabSpec);
 
         tabSpec = tabHost.newTabSpec("tag2");
-        tabSpec.setIndicator("Вкладка2",getResources().getDrawable(R.drawable.tab_icon_selector));
+        tabSpec.setIndicator("Вкладка 2", getResources().getDrawable(R.drawable.tab_icon_selector));
         tabSpec.setContent(R.id.tvTab2);
         tabHost.addTab(tabSpec);
 
