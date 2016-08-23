@@ -1,7 +1,6 @@
 package com.soho.evgeny.simplecalculator;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -9,8 +8,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends Activity implements View.OnClickListener{
 
@@ -34,7 +31,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         btnSub.setOnClickListener(this);
         btnDiv.setOnClickListener(this);
         btnMult.setOnClickListener(this);
-
+        //
     }
 
     @Override

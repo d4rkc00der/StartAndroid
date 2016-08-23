@@ -32,6 +32,7 @@ public class MainActivity extends Activity implements OnClickListener {
                 tvOut.setText("Cancel button pressed");
                 break;
         }
+        //
     }
 
 

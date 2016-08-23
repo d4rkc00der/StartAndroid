@@ -40,7 +40,7 @@ public class MainActivity extends Activity implements OnClickListener {
                 Log.d(TAG,"Button cancel pressed");
                 Toast.makeText(this,"Button cancel pressed",Toast.LENGTH_SHORT).show();
                 break;
-
+            //
         }
     };
 }

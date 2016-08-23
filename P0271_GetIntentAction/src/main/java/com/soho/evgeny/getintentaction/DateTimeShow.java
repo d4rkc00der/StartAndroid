@@ -3,7 +3,6 @@ package com.soho.evgeny.getintentaction;
 import android.app.Activity;
 import android.content.Intent;
 import android.icu.text.SimpleDateFormat;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -18,7 +17,7 @@ public class DateTimeShow extends Activity {
 
         TextView tvInfo = (TextView)findViewById(R.id.tvInfo);
         Intent intent = getIntent();
-
+        //
         String action = intent.getAction();
 
         String format ="", textInfo ="";

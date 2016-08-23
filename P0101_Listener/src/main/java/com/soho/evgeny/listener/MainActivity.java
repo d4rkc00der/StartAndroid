@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         };
         btnOk.setOnClickListener(oclbtn);
         btnCancel.setOnClickListener(oclbtn);
+        //
     }
 
 

@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
     final int MENU_TRANSLATE_ID = 3;
     final int MENU_ROTATE_ID = 4;
     final int MENU_COMBO_ID = 5;
-
+    //
     TextView tv;
 
     /** Called when the activity is first created. */

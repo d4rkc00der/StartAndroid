@@ -37,7 +37,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         btnClear = (Button) findViewById(R.id.btnClear);
         btnClear.setOnClickListener(this);
     }
-
+//
     @Override
     public void onClick(View view) {
         switch(view.getId())

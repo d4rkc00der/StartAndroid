@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 tvSize.setText("Text size = 30");
                 break;
         }
+        //
 
         return super.onContextItemSelected(item);
     }

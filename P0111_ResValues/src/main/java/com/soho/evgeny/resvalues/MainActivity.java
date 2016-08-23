@@ -23,4 +23,5 @@ public class MainActivity extends Activity {
         btnBottom.setText(getResources().getString(R.string.btnBottomText));
         llBotom.setBackgroundColor(getResources().getColor(R.color.llBottomColor));
     }
+    //
 }

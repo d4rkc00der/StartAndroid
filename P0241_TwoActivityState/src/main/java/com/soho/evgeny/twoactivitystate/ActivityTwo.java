@@ -15,7 +15,7 @@ public class ActivityTwo extends Activity {
         setContentView(R.layout.two);
         Log.d(TAG, "ActivityTwo: onCreate()");
     }
-
+    //
     @Override
     protected void onRestart() {
         super.onRestart();

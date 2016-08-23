@@ -31,5 +31,6 @@ public class MainActivity extends Activity {
         linearLayout.addView(btn,lpView);
 
         setContentView(linearLayout,params);
+        //
     }
 }

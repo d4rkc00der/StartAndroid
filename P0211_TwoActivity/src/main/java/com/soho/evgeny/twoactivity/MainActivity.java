@@ -18,7 +18,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         btnActTwo = (Button)findViewById(R.id.btnActTwo);
         btnActTwo.setOnClickListener(this);
     }
-
+    //
     @Override
     public void onClick(View view) {
         switch(view.getId()){
