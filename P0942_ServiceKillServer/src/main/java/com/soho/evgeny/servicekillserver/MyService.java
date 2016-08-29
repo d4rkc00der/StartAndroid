@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class MyService extends Service {
     final String LOG_TAG = "MyLogs";
 
-  
+
 
     public void onCreate() {
         super.onCreate();
