@@ -34,7 +34,7 @@ public class MyService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.d(LOG_TAG,"onStartCommand");
-        int time = intent.getIntExtra(MainActivity.PARAM_TIME,0);
+        int time = intent.getIntExtra(MainActivity.PARAM_TIME,1);
         int task = intent.getIntExtra(MainActivity.PARAM_TASK,0);
 
         MyRun myRun = new MyRun(startId,task,time);
@@ -72,7 +72,7 @@ public class MyService extends Service {
                 intent.putExtra(MainActivity.PARAM_STATUS, MainActivity.STATUS_START);
                 sendBroadcast(intent);
 
-                TimeUnit.SECONDS.sleep(5);
+                TimeUnit.SECONDS.sleep(time);
 
                 intent.putExtra(MainActivity.PARAM_STATUS, MainActivity.STATUS_FINISH);
                 intent.putExtra(MainActivity.PARAM_RESULT, time * 100);
