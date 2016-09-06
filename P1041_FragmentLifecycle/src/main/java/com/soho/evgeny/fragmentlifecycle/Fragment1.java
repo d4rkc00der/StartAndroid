@@ -3,15 +3,12 @@ package com.soho.evgeny.fragmentlifecycle;
 import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by evgeny on 06.09.16.
- */
+
 public class Fragment1 extends Fragment {
 
     final String LOG_TAG = "MyLog";
@@ -27,7 +24,6 @@ public class Fragment1 extends Fragment {
         Log.d(LOG_TAG,"Fragment1 onCreate()");
     }
 
-    @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         Log.d(LOG_TAG,"Fragment1 onCreateView()");
