@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.soho.evgeny.preferencefragment.Fragment1"
+        android:icon="@mipmap/fragment1_icon"
+        android:summary="@string/header1_summary"
+        android:title="@string/header1_title">
+    </header>
+    <header
+        android:fragment="com.soho.evgeny.preferencefragment.Fragment2"
+        android:icon="@mipmap/fragment2_icon"
+        android:summary="@string/header2_summary"
+        android:title="@string/header2_title">
+    </header>
+    <header
+        android:icon="@mipmap/menu_icon"
+        android:summary="@string/header3_summary"
+        android:title="@string/header3_title">
+    </header>
+
+</preference-headers>
